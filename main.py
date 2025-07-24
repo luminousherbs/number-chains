@@ -28,7 +28,7 @@ def interpret(code: str):
     # handle cases where the function input is a variable
     except NameError:
         def transform(n: float) -> float:
-            return float(eval(function_body.replace(function_input, f"({str(n)})")))
+            return substitute(function_body, function_input, str(n))
     
     return transform
 
