@@ -47,7 +47,7 @@ Returns `undefined`.
 ```
 n => undefined + 1
 ```
-Returns `undefined`. Any operation performed on `undefined` always returns `undefined`.
+Returns `undefined`. Any operation performed on `undefined` returns `undefined`.
 
 ---
 
